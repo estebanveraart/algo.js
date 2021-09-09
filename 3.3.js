@@ -1,8 +1,6 @@
 let animaux = ["poisson","cheval","cerf","crocodile"];
 console.log(animaux)
-var final = animaux.push("poisson","cheval","cerf","crocodile");
-console.log(animaux);
-while(animaux.length>4){
-    animaux.pop();
+let animaux2 = {
+    ...animaux
 }
-console.log(animaux);
+console.log(animaux2)
